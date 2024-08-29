@@ -1,0 +1,54 @@
+body{
+    padding-top: 120px;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+main{
+    padding: 0px 70px;
+    margin-bottom: 30px;
+}
+
+.btn-full {
+    margin: 10px 50px;
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: rgb(22, 56, 143);
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-full:hover {
+    background-color: rgb(30, 70, 180); 
+}
+
+.year-details, .month-details {
+    padding: 5px;
+}
+
+.year{
+    font-size:20px;
+}
+
+.month{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.year, .month {
+    font-weight: bold;
+}
+
+.event-container{
+    margin-left: 40px;
+}
+
+

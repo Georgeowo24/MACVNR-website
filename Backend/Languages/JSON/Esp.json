@@ -1,0 +1,84 @@
+{
+    "Header": {
+        "HomeBtn": "Inicio",
+        "DashboardBtn": "Panel de Control",
+        "ManagementBoardBtn": "Mesa Directiva",
+        "MembersBtn": "Miembros",
+        "EventsBtn" : "Eventos",
+        "LanguageBtn": "Eng"
+    },
+    "Footer": {
+        "Copyright": "© 2024 Todos los derechos reservados: Mexican Association of Computer Vision Neuronal Computing and Robotics",
+        "Email": "Correo",
+        "Location": "Ubicación"
+    },
+    "Events": {
+        "Create": {
+            "Title": "Crear un nuevo evento",
+            "LbNameEvent": "Nombre del evento: ",
+            "LbDescriptionEn": "Descripción en inglés: ",
+            "LbDescriptionEs": "Descripción en español: ",
+            "LbCountry": "País: ",
+            "LbCity": "Ciudad: ",
+            "LbDeadline": "Fecha límite: ",
+            "LbEventdate": "Fecha del evento: ",
+            "LbLinkEvent": "Enlace del evento: ",
+            "Button": "Subir"
+        },
+        "Update": {
+            "Title": "Editar el evento",
+            "LbNameEvent": "Nombre del evento: ",
+            "LbDescriptionEn": "Descripción en inglés: ",
+            "LbDescriptionEs": "Descripción en español: ",
+            "LbCountry": "País: ",
+            "LbCity": "Ciudad: ",
+            "LbDeadline": "Fecha límite: ",
+            "LbEventdate": "Fecha del evento: ",
+            "LbLinkEvent": "Enlace del evento: ",
+            "Button": "Actualizar"
+        }
+    },
+    "GoverningBoard": {
+        "Create": {
+            "Title": "Agregar un nuevo miembro",
+            "DragImage": "Arrastra y suelta la imagen aquí o haz click para seleccionarla",
+            "UploadImage": "Sube cualquier imagen desde tu almacenamiento",
+            "LbFirstName": "Nombre: ",
+            "LbLastName": "Apellido Paterno: ",
+            "LbMiddleName": "Apellido Materno: ",
+            "LbPositionEs": "Posición en español: ",
+            "LbPositionEn": "Posición en inglés: ",
+            "LbInstitution": "Institución: ",
+            "Button": "Subir"
+        },
+        "Update": {
+            "Title": "Actualizar al miembro",
+            "DragImage": "Arrastra y suelta la imagen aquí o haz click para seleccionarla",
+            "UploadImage": "Sube cualquier imagen desde tu almacenamiento",
+            "LbFirstName": "Nombre: ",
+            "LbLastName": "Apellido Paterno: ",
+            "LbMiddleName": "Apellido Materno: ",
+            "LbPositionEs": "Posición en español: ",
+            "LbPositionEn": "Posición en inglés: ",
+            "LbInstitution": "Institución: ",
+            "Button": "Actualizar"
+        }
+    },
+    "Members": {
+        "Create": {
+            "Title": "Agregar un nuevo miembro",
+            "LbFirstName": "Nombre: ",
+            "LbLastName": "Apellido Paterno: ",
+            "LbMiddleName": "Apellido Materno: ",
+            "LbInstitution": "Institución: ",
+            "Button": "Subir"
+        },
+        "Update": {
+            "Title": "Actualizar al miembro",
+            "LbFirstName": "Nombre: ",
+            "LbLastName": "Apellido Paterno: ",
+            "LbInstitution": "Institución: ",
+            "Button": "Actualizar"
+        }
+    }
+}

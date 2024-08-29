@@ -1,0 +1,118 @@
+body {
+    padding-top: 110px;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 0 0 160px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="url"],
+textarea {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.description-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.description-group label {
+    margin-right: 15px;
+    flex: 0 0 160px; 
+}
+
+.description-group textarea {
+    flex: 1;
+    resize: vertical;
+    min-height: 100px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: #203874;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form input [type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .form-group,
+    .description-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-group label,
+    .description-group label {
+        margin-right: 0;
+        margin-bottom: 5px;
+        text-align: left;
+        flex: 0 0 25px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="date"],
+    .form-group input[type="url"],
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .description-group textarea {
+        width: 100%;
+    }
+}

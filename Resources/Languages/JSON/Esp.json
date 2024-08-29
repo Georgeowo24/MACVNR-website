@@ -1,0 +1,81 @@
+{
+    "Header": {
+        "HomeBtn": "Inicio",
+        "DashboardBtn": "Panel de Control",
+        "GoverningBoardBtn": "Mesa Directiva",
+        "MembersBtn": "Miembros",
+        "EventsBtn" : "Eventos",
+        "LanguageBtn": "Eng"
+    },
+    "Index": {
+        "Title": "Asociación Mexicana de Visión Computacional, Neurocomputación y Robótica",
+        "Main":{
+            "AboutUs": {
+                "Title" : "Sobre Nosotros",
+                "Txt1": "La Asociación Mexicana de Visión Computacional, Neurocomputación y Robótica (MACVNR) nació el 15 de agosto de 2003 como una sociedad sin fines de lucro afiliada a la IAPR. El Prof. Eduardo Bayro Corrochano redactó una constitución y se reclutaron unos 29 miembros iniciales.",
+                "Txt2": "Desde 2009, la Conferencia Mexicana de Reconocimiento de Patrones ha sido la principal actividad de la MACVNR. Las actas desde 2010 se han publicado en la serie Lecture Notes de Springer.",
+                "Txt3": "La MACVNR organiza mensualmente un seminario online que cubre diferentes temas de Reconocimiento de Patrones y áreas relacionadas. Socios disfrutan de descuentos en reuniones técnicas patrocinadas por la MACVNR"
+            },
+
+            "MissionActivities": {
+                "Title": "Misión y Actividades",
+                "Txt": "La misión de la MACVNR es promover el avance de la investigación relacionada con el reconocimiento de patrones y disciplinas relacionadas y sus diversas aplicaciones en tecnología, ciencia y humanidades.",
+
+                "Objectives": {
+                    "Title": "Los objetivos de la MACVNR incluyen:",
+                    "Item1": "Promover el estudio y difusión del Reconocimiento de Patrones en México.",
+                    "Item2": "Contribuir al desarrollo de sus miembros a través de actividades que fomenten el intercambio académico y de investigación.",
+                    "Item3": "Contribuir a la formación y desarrollo de grupos de investigación nacionales.",
+                    "Item4": "Establecer relaciones de desarrollo científico con organismos nacionales e internacionales.",
+                    "Item5": "Difundir y promover el Reconocimiento de Patrones entre la comunidad."
+                },
+                "Activities": {
+                    "Title": "Las actividades de la MACVNR incluyen:",
+                    "Item1": "Dirigir la organización de la Conferencia Mexicana sobre Reconocimiento de Patrones (MCPR), celebrada anualmente desde 2009.",
+                    "Item2": "Organizar un seminario mensual sobre temas relacionados.",
+                    "Item3": "Difundir los trabajos desarrollados por grupos de investigación mexicanos en reconocimiento de patrones y áreas afines.",
+                    "Item4": "Difundir información de interés entre los socios de la asociación a través de la página web y lista de correo.",
+                    "Item5": "Representar a los miembros de la MACVNR en las reuniones de la IAPR."
+                }
+            }
+        },
+        "Aside":{
+            "UpcomingEvents": "Próximos Eventos",
+            "NoEvents": "No se encontraron eventos próximos.",
+            "ViewEvents": "Ver todos los eventos" 
+        }
+    },
+    "Footer": {
+        "Copyright": "© 2024 Todos los derechos reservados: Mexican Association of Computer Vision Neuronal Computing and Robotics",
+        "Email": "Correo",
+        "Location": "Ubicación", 
+        "Credits": "Sitio web creado por Jorge Torres Romero"
+    },
+    "Login": {
+        "Title": "Iniciar Sesión",
+        "Email": "Correo",
+        "Password": "Contraseña"
+    },
+    "AdminDashboard": {
+        "Welcome": "Bienvenido, {admin_name}!",
+        "Text":  "Este es tu panel de control",
+        "Buttons": {
+            "Events": "Eventos",
+            "Members":"Miembros",
+            "GoverningBoard":"Mesa Directiva"
+        }
+    },
+    "Events": {
+        "Title": "Todos los eventos",
+        "BtnAddEvents": "Agregar un nuevo evento"
+    },
+    "GoverningBoard": {
+        "Title" : "Mesa Directiva",
+        "BtnAddMembers": "Agregar a un nuevo miembro",
+        "Txt": "En esta sección, presentamos a los miembros clave que lideran nuestra asociación. La mesa directiva está compuesta por un equipo de profesionales dedicados y apasionados. Cada miembro aporta su experiencia y compromiso para asegurar el éxito y el crecimiento continuo de nuestra asociación."
+    },
+    "Members": {
+        "Title" : "Miembros",
+        "BtnAddMembers": "Agregar a un nuevo miembro"
+    }
+}

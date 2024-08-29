@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #FBF8f3;
+    font-size: 13px;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+main{
+    margin: 120px 30px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Present-Dashboard{
+    text-align: center;
+    font-size: 15px;
+}
+
+.button {
+    display: inline-block;
+    width: 250px;
+    padding: 20px 40px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(22, 56, 143);
+    border-radius: 30px;
+    transition: background-color 0.3s, transform 0.2s;
+    position: relative;
+}
+
+.button i{
+    display: block;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.button:hover {
+    background-color: rgb(30, 70, 180);
+    transform: scale(1.05);
+}
+
+
+

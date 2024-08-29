@@ -1,0 +1,85 @@
+{
+    "Header": {
+        "HomeBtn": "Home",
+        "DashboardBtn": "Dashboard",
+        "ManagementBoardBtn": "Management Board",
+        "MembersBtn": "Members",
+        "EventsBtn": "Events",
+        "LanguageBtn": "Esp"
+    },
+    "Footer": {
+        "Copyright": "© 2024 All rights reserved: Mexican Association of Computer Vision Neuronal Computing and Robotics",
+        "Email": "Email: ",
+        "Location": "Location: "
+    },
+    "Events": {
+        "Create": {
+            "Title": "Create a new event",
+            "LbNameEvent": "Event Name: ",
+            "LbDescriptionEn": "Description in English: ",
+            "LbDescriptionEs": "Description in Spanish: ",
+            "LbCountry": "Country: ",
+            "LbCity": "City: ",
+            "LbDeadline": "Deadline: ",
+            "LbEventdate": "Event Date: ",
+            "LbLinkEvent": "Event Link: ",
+            "Button": "Upload"
+        },
+        "Update": {
+            "Title": "Edit the event",
+            "LbNameEvent": "Event Name: ",
+            "LbDescriptionEn": "Description in English: ",
+            "LbDescriptionEs": "Description in Spanish: ",
+            "LbCountry": "Country: ",
+            "LbCity": "City: ",
+            "LbDeadline": "Deadline: ",
+            "LbEventdate": "Event Date: ",
+            "LbLinkEvent": "Event Link: ",
+            "Button": "Update"
+        }
+    },
+    "GoverningBoard": {
+        "Create": {
+            "Title": "Add a new member",
+            "DragImage": "Drag and drop the image here or click to select it",
+            "UploadImage": "Upload any image from your storage",
+            "LbFirstName": "First Name: ",
+            "LbLastName": "Last Name: ",
+            "LbMiddleName": "Middle Name: ",
+            "LbPositionEs": "Position in Spanish: ",
+            "LbPositionEn": "Position in English: ",
+            "LbInstitution": "Institution: ",
+            "Button": "Upload"
+        },
+        "Update": {
+            "Title": "Update the member",
+            "DragImage": "Drag and drop the image here or click to select it",
+            "UploadImage": "Upload any image from your storage",
+            "LbFirstName": "First Name: ",
+            "LbLastName": "Last Name: ",
+            "LbMiddleName": "Middle Name: ",
+            "LbPositionEs": "Position in Spanish: ",
+            "LbPositionEn": "Position in English: ",
+            "LbInstitution": "Institution: ",
+            "Button": "Update"
+        }
+    },
+    "Members": {
+        "Create": {
+            "Title": "Add a new member",
+            "LbFirstName": "First Name: ",
+            "LbLastName": "Last Name: ",
+            "LbMiddleName": "Middle Name: ",
+            "LbInstitution": "Institution: ",
+            "Button": "Upload"
+        },
+        "Update": {
+            "Title": "Update the member",
+            "LbFirstName": "First Name: ",
+            "LbLastName": "Last Name: ",
+            "LbMiddleName": "Middle Name: ",
+            "LbInstitution": "Institution: ",
+            "Button": "Update"
+        }
+    }
+}

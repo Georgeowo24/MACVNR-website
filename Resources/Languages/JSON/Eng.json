@@ -1,0 +1,82 @@
+{
+    "Header": {
+        "HomeBtn": "Home",
+        "DashboardBtn": "Dashboard",
+        "GoverningBoardBtn": "Governing Board",
+        "MembersBtn": "Members",
+        "EventsBtn": "Events",
+        "LanguageBtn": "Esp"
+    },
+    "Index": {
+        "Title" : "Mexican Association for Computer Vision, Neurocomputing and Robotics",
+        "Main":{
+            "AboutUs": {
+                "Title" : "About Us",
+                "Txt1": "MACVNR was born in August 15, 2003 as a nonprofit society affiliated to IAPR. A constitution was drafted by Prof. Eduardo Bayro Corrochano and about 29 initial members were recruited.",
+                "Txt2": "Since 2009, the Mexican Conference on Pattern Recognition has been the main activity of MACVNR. The proceedings since 2010 have been published in the series Lecture Notes of Springer.",
+                "Txt3": "The MACVNR organizes montly a seminary online covering different topics of Pattern Recognition and related areas. Members enjoy discounts at technical meetings sponsored by MACVNR"
+            },
+
+            "MissionActivities": {
+                "Title": "Mission and Activities",
+                "Txt": "The mission of the MACVNR is to promote the advancement of research related to pattern recognition and related disciplines and their various applications in technology, science, and humanities.",
+
+                "Objectives": {
+                    "Title": "MACVNR's objectives include:",
+                    "Item1": "Promote the study and dissemination of Pattern Recognition in Mexico.",
+                    "Item2": "Contribute to the development of its members through activities that encourage academic and research exchange.",
+                    "Item3": "Contribute to the formation and development of national research groups.",
+                    "Item4": "Establish scientific development relationships with national and international organizations.",
+                    "Item5": "Disseminate and promote Pattern Recognition among the community."
+                },
+                "Activities": {
+                    "Title": "MACVNR's activities include:",
+                    "Item1": "To direct the organization of the Mexican Conference on Pattern Recognition (MCPR), held annually since 2009.",
+                    "Item2": "Organize a monthly seminar on related topics.",
+                    "Item3": "Disseminate the work developed by Mexican research groups in pattern recognition and related areas.",
+                    "Item4": "Disseminate information of interest among association members through the webpage and mail list.",
+                    "Item5": "Represent MACVNR members at IAPR meetings."
+                }
+            }
+        },
+        "Aside":{
+            "UpcomingEvents": "Upcoming Events",
+            "NoEvents": "No upcoming events found.",
+            "ViewEvents": "View all events" 
+        }
+    },
+    "Footer": {
+        "Copyright": "© 2024 All rights reserved: Mexican Association of Computer Vision Neuronal Computing and Robotics",
+        "Email": "Email: ",
+        "Location": "Location: ", 
+        "Credits": "Website created by Jorge Torres Romero"
+    },
+    "Login": {
+        "Title": "Login",
+        "Email": "Email",
+        "Password": "Password"
+    },
+    "AdminDashboard": {
+        "Welcome": "Welcome, {admin_name}!",
+        "Text":  "This is your dashboard.",
+        "Buttons": {
+            "Events": "Events",
+            "Members":"Members",
+            "GoverningBoard":"Governing Board"
+        }
+    },
+    "Events": {
+        "Title": "All Events",
+        "BtnAddEvents": "Add a new event"
+    },
+
+    "GoverningBoard": {
+        "Title" : "Governing Board",
+        "BtnAddMembers": "Add a new member",
+        "Txt": "In this section, we introduce the key members who lead our association. The board of directors comprises a dedicated and passionate professional team. Each member brings their expertise and commitment to ensure our association's success and continuous growth."
+    },
+    "Members": {
+        "Title" : "Members",
+        "BtnAddMembers": "Add a new member"
+    }
+}

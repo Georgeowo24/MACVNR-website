@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sen", sans-serif;
+}
+
+header .brand img{
+    height: 70px;
+    margin-right: 45px;
+}
+
+header{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 80px;
+    transition: 0.6s;
+}
+
+header.down{
+    background: #203874;
+    padding: 2px 80px;
+}
+
+header .menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu ul li{
+    list-style: none;
+}
+
+header .menu ul li i{
+    font-size: 20px;
+}
+
+header .menu a {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    position: relative; /* Añadir esto para el pseudo-elemento */
+    transition: color 0.3s;
+}
+
+header .menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.5s ease, left 0.3s ease;
+}
+
+header .menu a:hover {
+    color: #fff;
+}
+
+header .menu a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+header .menu button {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: none;
+    border: none; 
+    padding: 7px 12px; 
+    border-radius: 20px;
+    cursor: pointer; 
+    position: relative; 
+    transition: color 0.3s; 
+}
+
+header .menu button::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.5s ease, left 0.3s ease;
+}
+
+header .menu button:hover {
+    color: #fff; 
+}
+
+header .menu button:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+header .btn{
+    color: #fff;
+    font-size: 75px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 991px){
+    header header.down{
+        padding: 20px 40px;
+    }
+    header .brand{
+        margin-right: 10%;
+    }
+    header .brand img{
+        height: 90px;
+    }
+    header .btn{
+        display: block;
+        margin-left: 20%;
+        font-size: 35px;
+    }
+    header .menu{
+        position: fixed;
+        background: #203874;
+        min-width: 33px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 80px 50px;
+        transition: 0.5s;
+        transition-property: right;
+    }
+    header .menu ul{
+        flex-direction: column;
+    }
+    header .menu.active{
+        right: 0;
+    }
+    header .menu .close-btn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 25px 0 25px 25px;
+        font-size: 45px;
+    }
+
+    header .menu a{
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        margin: 30px 5px 30px 0;
+        padding: 0 15px;
+    }
+
+    header .menu button{
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        margin: 30px 5px 30px 0;
+        padding: 0 15px;
+    }
+}

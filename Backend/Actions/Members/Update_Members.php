@@ -1,0 +1,101 @@
+<?php
+    include '../../Components/Admin_Session_Check.php';
+    include '../../Database/DB_Connect.php';
+
+     // Get the ID of the member
+    $id = intval($_GET['id']);
+
+    // Check if the form has been submitted
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $first_name = $_POST['first_name'];
+        $last_name = $_POST['last_name'];
+        $middle_name = $_POST['middle_name'];
+        $institution = $_POST['institution'];
+
+        // Prepare the SQL statement
+        $sql = "UPDATE members SET First_Name = ?, Last_Name = ?, Middle_Name = ?, Institution = ? WHERE ID = ?";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("ssssi", $first_name, $last_name, $middle_name, $institution, $id);
+
+        // Execute the statement
+        if ($stmt->execute()) {
+            echo "<script>alert('Member updated successfully'); window.location.href='../../../Members.php';</script>";
+        } else {
+            echo "<script>alert('Error updating the member'); window.location.href='../../../Members.php';</script>";
+        }
+
+        $stmt->close();
+    } else {
+        // Prepare and execute the SQL statement to fetch the member's details
+        $sql = "SELECT First_Name, Last_Name, Middle_Name, Institution FROM members WHERE ID = ?";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("i", $id);
+        $stmt->execute();
+        $stmt->bind_result($first_name, $last_name, $middle_name, $institution);
+        $stmt->fetch();
+        $stmt->close();
+    }
+    $conn->close();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Developed by Jorge Torres Romero">
+    <title>MACVNR</title>
+    
+    <!--//* Tab icon -->
+    <link rel="icon" href="../../../Resources/Img/Icon-MACVNR-White.ico">
+
+    <!--//* CSS -->
+    <link rel="stylesheet" href="../../../Resources/Styles/Header-Static.css">
+    <link rel="stylesheet" href="../../../Resources/Styles/Update_Members.css?1.3">
+    <link rel="stylesheet" href="../../../Resources/Styles/Footer.css?1.3">
+
+    <!--//? Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--//* Header Script -->
+    <script src="../../Components/Header.js"></script>
+
+    <!--//! Multilanguages ​​-->
+    <script src="../../Languages/Pages/Change_Language.js" type="module"></script>
+</head>
+<body id="UpdateMembers">
+    <!--//! Header -->
+    <?php include '../../Components/Header.php'; ?>
+    
+    <div class="container">
+        <h1 id="Title"></h1>
+
+        <main class="table">    
+            <form action="./Update_Members.php?id=<?php echo $id; ?>" method="POST">
+                <div class="form-group">
+                    <label for="first_name" id="LbFirstName"></label>
+                    <input type="text" id="first_name" name="first_name" value="<?php echo htmlspecialchars($first_name); ?>" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="last_name" id="LbLastName"></label>
+                    <input type="text" id="last_name" name="last_name" value="<?php echo htmlspecialchars($last_name); ?>" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="middle_name" id="LbMiddleName"></label>
+                    <input type="text" id="middle_name" name="middle_name" value="<?php echo htmlspecialchars($middle_name); ?>"><br>
+                </div>
+                
+                <div class="form-group">
+                    <label for="institution" id="LbInstitution"></label>
+                    <input type="text" id="institution" name="institution" value="<?php echo htmlspecialchars($institution); ?>"><br>
+                </div>
+                        
+                <input type="submit" value="" id="Button">
+            </form>
+        </main>
+    </div>
+
+    <!--//! Footer -->
+    <?php include '../../../Resources/Components/Footer.php';?>
+</body>
+</html>

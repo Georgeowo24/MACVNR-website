@@ -4,9 +4,9 @@
     include './Database/DB_Connect.php';
 
     // New administrator data
-    $first_name = 'Jose Francisco';
-    $email = 'fmartine@inaoep.mx';
-    $password = 'r6@Z3!nW9%qC';
+    $first_name = '';
+    $email = '';
+    $password = '';
 
     // Hash the password using a secure hashing algorithm
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
